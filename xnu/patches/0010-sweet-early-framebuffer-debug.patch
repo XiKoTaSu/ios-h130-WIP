@@ -161,7 +161,7 @@ index 0000000..8f4c808
 +#define EARLY_FB ((volatile uint32_t *)(uintptr_t)0x9c000000)
 +#define EARLY_WIDTH 1600u
 +#define EARLY_HEIGHT 2176u
-+#define EARLY_STRIDE (4320u / 4)
++#define EARLY_STRIDE (6400u / 4)
 +#define EARLY_SCALE 2u
 +#define EARLY_CELL_W (8u * EARLY_SCALE)
 +#define EARLY_CELL_H (16u * EARLY_SCALE)
